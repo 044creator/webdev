@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Prata', serif;
+    color: #222222;
+    width: 595px;
+    margin: auto;
+}
+
+.header {
+    background-color: #D38004;
+    height: 200px;
+}
+
+.header div {
+    display: inline-block;
+}
+
+.header .logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 34px;
+    margin-left: 19px;
+}
+
+.experiance {
+    display: flex;
+    margin-left: 32px;
+}
+
+.footer {
+    margin-left: 32px;
+}
+
+.footer p {
+    display: inline-block;
+    width: 32%;
+}
+
+.work {
+    flex: 1;
+    margin-right: 20px;
+    width: 254px;
+}
+
+.main-title-style {
+    font-size: 35px;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.main-style {
+    font-size: 14px;
+    color: #CA6D18;
+}
+
+.contact_style {
+    font-size: 10px;
+    margin: auto;
+    margin-left: 93px;
+}
+
+.date-style {
+    font-size: 11px;
+    color: #797979;
+}
+
+.pop-style {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+}
+
+.work-title-style {
+    font-size: 14px;
+}
+
+.edu-title-style {
+    font-size: 12px;
+}
+
+.work-title-style_job {
+    margin: 0;
+    margin-left: 40px;
+}
