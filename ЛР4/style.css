@@ -1,0 +1,267 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(235, 115, 9), #FFA500);
+    padding: 20px 0;
+    text-align: center; /* Центрує текст всередині хедера */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Центрує обидва елементи по горизонталі */
+    align-items: center; /* Центрує обидва елементи по вертикалі */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрує пункти меню по вертикалі */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li:last-child {
+    margin-left: auto; /* Залишає останній пункт меню (з кнопкою пошуку) справа */
+}
+
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #151515;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+nav ul li a img {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+nav ul li a:hover {
+    color: #151515;
+    transform: scale(1.1);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Залишає контейнер пошуку справа від інших пунктів меню */
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    width: 200px;
+    margin-right: 10px; /* Відступ поля пошуку зправа */
+}
+
+.search-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFA500;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #FF7F00;
+}
+
+/* Центрування кнопки всередині хедера */
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li:last-child {
+    margin-left: auto; /* Залишає останній пункт меню (з кнопкою пошуку) справа */
+}
+
+
+/* Стилі для секції фільмів */
+main {
+    background: #333333;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.movie-heading h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.movie {
+    width: 250px;
+    padding: 20px;
+    margin: 20px 10px;
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.movie img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover; 
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.movie h2 {
+    font-size: 1em;
+    color: #ff7f50;
+    margin-bottom: 5px;
+}
+.movie p {
+    font-size: 0.9em;
+    color: #777;
+    height: 60px;
+    overflow: hidden;
+}
+.movie a {
+    display: block;
+    width: 150px;
+    padding: 8px 15px;
+    margin: 10px auto 0;
+    background-color: #ff7f50;
+    color: #151515;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+.movie a:hover {
+    background-color: #ff6347;
+}
+
+/* Стилі для підвалу */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to bottom, rgb(235, 115, 9), #FFA500);
+    color: #151515;
+}
+
+footer {
+    background: linear-gradient(to bottom, rgb(235, 115, 9), #FFA500);
+    background-color: #333;
+    color: #151515;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-section.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section.links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section.links ul li a {
+    color: #151515;
+    text-decoration: none;
+    font-size: 1em;
+    transition: font-size 0.3s ease;
+}
+
+.footer-section.links ul li a:hover {
+    font-size: 1.1em;
+}
+
+#goToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(197, 123, 3);
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .arrow-up-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url("image/arrow_up_icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 4px;
+  }
+
+
+
+#searchInput {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
